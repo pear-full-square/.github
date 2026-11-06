@@ -1,9 +1,11 @@
 # pear-full-square
 
-P2P application code built on the Bare + Holepunch stack. Production modules and proof-of-concept work.
+P2P application code built on the Bare + Holepunch stack, one module a
+repository: the data fabric (mycelium), the p2p substrate and its nodes,
+Splectral, HAICC and the package manager. Developed and tested together in
+[splectrum/dev-env-2-p2p-cluster](https://github.com/splectrum/dev-env-2-p2p-cluster);
+published as packages, ready to run, in
+**[haiccing](https://github.com/haiccing)**: start there.
 
-**Modules:**
-- **mycelium** — the data fabric base layer (CRUD + XPath over git, Kafka record boundary)
-- **hyperdrive-fuse** — read-only FUSE mount for Hyperdrive v11 (mount a P2P drive as a local filesystem)
-
-Part of the [SPLectrum](https://splectrum.world) engineering infrastructure. All modules MIT licensed.
+Part of the [SPLectrum](https://splectrum.world) engineering infrastructure.
+All modules MIT licensed.
