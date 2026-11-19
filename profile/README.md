@@ -13,15 +13,17 @@ service and most of SPLectral, are of the earlier platform and rest.
 
 One rule keeps the organisations apart: the engines live here, and what is
 made with an engine lives in the organisation of its layer. Packages are in
-**[HAICCing](https://github.com/haiccing)** (start there), SPLectral's
-components in [SPLectral](https://github.com/splectral), and later
+**[HAICCing](https://github.com/haiccing)** (start there), data
+repositories in [myctral](https://github.com/myctral), data transformation
+in [myctrans](https://github.com/myctrans), SPLectral's components in
+[SPLectral](https://github.com/splectral), and later
 SPLectrum's language modules in [splectrum](https://github.com/splectrum).
 Everything depends on this organisation; it depends on nothing outside itself
 and the third-party code it takes in.
 
-## The five organisations
+## The seven organisations
 
-SPLectrum's engineering is spread over five GitHub organisations:
+SPLectrum's engineering is spread over seven GitHub organisations:
 
 - **[splectrum](https://github.com/splectrum)**: where SPLectrum, the
   philosophy project, lives, and where its engineering is planned.
@@ -31,8 +33,12 @@ SPLectrum's engineering is spread over five GitHub organisations:
   all of the platform's code, one module a repository.
 - **[HAICCing](https://github.com/haiccing)**: the packages made from those
   modules, and the `haicc` command: what you can run. Start here.
-- **[SPLectral](https://github.com/splectral)**: components for seeing and
-  working with running systems in the browser.
+- **[myctral](https://github.com/myctral)**: mycelium's data
+  repositories: state.
+- **[myctrans](https://github.com/myctrans)**: data transformation:
+  process.
+- **[SPLectral](https://github.com/splectral)**: interaction, first of
+  all the UI.
 
 The platform is built with AI autonomy in mind: an AI working from a need to
 running software, within simple, consistent rules, on units that carry what
